@@ -144,7 +144,7 @@ main {
     & .cover {
       @apply relative;
 
-      height: 70vh;
+      height: 65vw;
       min-height: 700px;
 
       & .image {
@@ -325,6 +325,10 @@ main {
 @media only screen and (max-width: 980px) {
   main {
     & .image-head {
+      & .cover {
+        height: 70vh;
+      }
+
       & .center {
         & .text-col {
           @apply flex-col pb-10 pr-0 !important;
