@@ -1,6 +1,8 @@
 const AVAILABLE_LANGUAGES = ['it']
 
 export default {
+  ssr: false,
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Dal Ben | Abbigliamento uomo, donna e bambino',
@@ -61,7 +63,6 @@ export default {
     '@nuxtjs/axios',
     'nuxt-i18n',
     '@nuxtjs/markdownit',
-    '@nuxtjs/sitemap',
   ],
 
   i18n: {
