@@ -10,9 +10,9 @@
         <div class="menu-bg"></div>
 
         <nuxt-link
-          :to="localePath('/')"
+          :to="localePath('/#cover')"
           class="logo-link"
-          @click.native="hideMenu"
+          @click.native="handleLogoClick"
         >
           <div class="logo clickable">
             <Icon name="logo" />
@@ -89,6 +89,15 @@ export default {
   methods: {
     toggleMenu() {
       this.isMenuOpened = !this.isMenuOpened
+    },
+
+    scrollToTop() {
+      window.scrollTo(0, 0)
+    },
+
+    handleLogoClick() {
+      this.hideMenu()
+      this.scrollToTop()
     },
 
     hideMenu() {

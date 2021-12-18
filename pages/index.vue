@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="image-head header">
+    <section id="cover" class="image-head header">
       <div class="cover">
         <div class="image"></div>
         <div class="center">
@@ -79,7 +79,7 @@
             <div>
               <h2 class="title">{{ $t('pg.home.discount') }}</h2>
               <h3 class="subtitle">{{ $t('pg.home.discountDesc') }}</h3>
-              <a href="https://goo.gl/maps/Uq4r1j77u6Gn6Zy7A">
+              <a href="https://goo.gl/maps/Uq4r1j77u6Gn6Zy7A" target="_blank">
                 <Button
                   :value="$t('pg.home.seePordenoneStore')"
                   class="button"
