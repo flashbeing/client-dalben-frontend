@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "title": "Copywriter/Social Media Manager",
+    "whatWillDo": "Ti occuperai della definizione della strategia editoriale e di contenuto per la comunicazione dei nostri clienti: dall'ideazione e sviluppo dei concept creativi e gestione dei contenuti all’analisi dei risultati e creazione di report. Sarai di supporto nella creazione di copy per campagne di digital advertising e campagne integrate di comunicazione, comunicazione interna e corporate, eventi, contenuti video.",
+    "whatWeRequire": [
+      "Esperienza di almeno un anno come Copywriter/Social Media Manager.",
+      "Capacità di sperimentare e di adattare i messaggi a differenti audience e diverse piattaforme.",
+      "Attitudine creativa e abilità nella creazione di nuovi contenuti.",
+      "Curiosità nel ricercare nuovi formati e linguaggi espressivi.",
+      "Buona capacità di scrittura e di copywriting.",
+      "Buona conoscenza della lingua inglese.",
+      "Scrittura in ottica SEO.",
+      "Ottima predisposizione al lavoro in team.",
+      "Ottime capacità relazionali ed organizzative unite ad eccellenti capacità di problem solving."
+    ],
+    "suggestedSkills": [
+      "Social emergenti: Pinterest, TikTok.",
+      "Semrush o affini per la ricerca di keyword/ topic in chiave SEO."
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Social Advertising",
+    "whatWillDo": "Ti occuperai della creazione di campagne advertising per i nostri clienti, dall’ideazione della strategia alla messa in opera e all’analisi dei risultati, collaborando con il team creativo per copy e creatività necessarie. Gestirai il funnel di comunicazione e svilupperai strategie omnicanale: advertising sulle piattaforme social, Google e DEM.",
+    "whatWeRequire": [
+      "Esperienza di almeno un anno come Digital Advertising Specialist.",
+      "Esperienza nell'utilizzo professionale dei principali Social Network e dei sistemi per la messa in opera e analisi di campagne Social.",
+      "Passione per il digitale, conoscenza delle migliori prassi e soluzioni di digital adv.",
+      "Interesse per i trend emergenti e degli aspetti tecnici e operativi della comunicazione digitale.",
+      "Capacità di analizzare i trend di mercato e competitor.",
+      "Capacità di lavoro in team."
+    ],
+    "suggestedSkills": [
+      "Piattaforma Business Manager.",
+      "Social emergenti: Pinterest, TikTok.",
+      "Google Analytics e Google Tag Manager.",
+      "Piattaforme CRM e Mail Automation quali Active Campaign, MailChimp e/o MailUp.",
+      "Utilizzo di Excel."
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Sviluppatore Web",
+    "whatWillDo": "Ti occuperai dello sviluppo di piattaforme web e applicazioni mobile dalla fase di prototipazione alla consegna e sarai di supporto nel design dell’architettura software, nella valutazione dei rischi e delle complessità delle diverse fasi di sviluppo. In taluni casi, per lo sviluppo del progetto, avrai un canale diretto con il cliente.",
+    "whatWeRequire": [
+      "Esperienza di almeno un anno come Sviluppatore di siti web.",
+      "Esperienze pregresse nello sviluppo di piattaforme interattive tramite HTML5, CSS3, animazioni JS.",
+      "Conoscenza di PHP / Laravel.",
+      "Capacità di programmazione in Javascript / React.",
+      "Conoscenza del CMS Wordpress."
+    ],
+    "suggestedSkills": [
+      "Conoscenze di Laravel, Vue.js, Angular JS, Node.js.",
+      "Conoscenza di Apex per lo sviluppo di componenti in Salesforce.",
+      "Minime esperienze nell’uso di librerie di data visualization (d3.js, Processing)."
+    ]
+  }
+]

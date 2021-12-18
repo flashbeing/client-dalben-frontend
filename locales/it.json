@@ -1,0 +1,56 @@
+{
+  "header": {
+    "whyDalBen": "Perché Dal Ben",
+    "personalShopper": "Personal shopper",
+    "offers": "Offerte",
+    "ourStores": "Punti vendita"
+  },
+
+  "footer": {
+    "cookiePolicy": "Cookie Policy",
+    "privacyPolicy": "Privacy Policy"
+  },
+
+  "pg": {
+    "home": {
+      "title": "Capi particolari, con stili e tessuti ricercati.",
+      "titleDesc": "Per vestire qualsiasi fascia d’età, uomo, donna e bambino. Questo è Dal Ben.",
+      "discoverMore": "Scopri di più",
+      "discoverNewDressingWorld": "Un nuovo modo di vestirti.",
+      "discoverNewDressingWorldDesc": "I nostri punti vendita di Mirano e Pordenone, sono sempre aperti dal lunedì alla domenica. Vi aspettiamo in totale sicurezza nel rispetto della normativa anti covid vigente.",
+      "discoverRetailPoints": "Scopri i punti vendita",
+      "personalShopper": "Il tuo personal shopper.",
+      "personalShopperDesc": "Scopri la nuova esclusiva esperienza d'acquisto, con Dal Ben puoi prenotare il tuo personal shopper in un qualsiasi nostro punto vendita.",
+      "bookNow": "Pernota ora",
+      "discount": "30% di sconto WOW!",
+      "discountDesc": "Dal 13 al 24 dicembre nel negozio di Pordenone.",
+      "seePordenoneStore": "Visita negozio",
+      "ourSalePoints": "I nostri punti vendita",
+      "startNavigationTo": "Visualizza sulle mappe"
+    }
+  },
+
+  "contacts": {
+    "legalOffices": "Sede legale",
+    "adminOffices": "Sede amministrativa",
+    "vat": "P. IVA",
+    "tel": "TEL",
+    "fax": "FAX",
+    "mirano": "Mirano",
+    "miranoStreet": "Via Don Luigi Orione, 2",
+    "miranoLocation": "30030 Mirano (VE) Italia",
+    "openingHours": "Orario di apertura",
+    "monFri": "LUN-VEN",
+    "sat": "SAB",
+    "sun": "DOM",
+    "contactUs7of7": "Contattaci 7 su 7, dalle {from}",
+    "pordenone": "Pordenone",
+    "pordenoneStreet": "Via Pionieri dell’Aria, 88",
+    "pordenoneLocation": "33080 Roveredo in Piano (PN) Italia",
+    "mon": "LUN",
+    "tueFri": "MAR-VEN",
+    "satSun": "SAB-DOM"
+  },
+
+  "globals": {}
+}

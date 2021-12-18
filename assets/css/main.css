@@ -1,0 +1,61 @@
+/**
+* Global css definitions
+*
+* IMPORTANT: This file should contain the smallest number of
+* definitions, which are globally available in the entire platform.
+*
+* Please use your brain before adding a new definition.
+*
+**/
+svg {
+  @apply inline-block;
+}
+
+.clickable {
+  @apply transition-opacity duration-200 cursor-pointer;
+
+  &:active {
+    @apply transition-none;
+
+    opacity: 0.6 !important;
+  }
+}
+
+.text-colored {
+  background: -webkit-linear-gradient(left, #ff00ce, #009dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-bordered {
+  color: theme(colors.primary);
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+.text-bordered-white {
+  color: theme(colors.white);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.center {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.title-desc {
+  @apply text-lg;
+
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 980px) {
+  .center {
+    @apply w-auto;
+
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
