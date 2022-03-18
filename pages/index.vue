@@ -132,7 +132,7 @@
 export default {
   data() {
     return {
-      GALLERY_IMAGES_NUM: 6,
+      GALLERY_IMAGES_NUM: 9,
     }
   },
 }
@@ -258,7 +258,7 @@ main {
   }
 
   & .gallery {
-    @apply grid grid-rows-2 grid-flow-col gap-3 -mt-8 mb-24;
+    @apply grid grid-cols-3 grid-flow-row gap-3 -mt-8 mb-24;
 
     & .gal-img {
       @apply bg-placeholder bg-cover bg-center;
@@ -369,7 +369,11 @@ main {
     }
 
     & .gallery {
-      @apply grid-rows-3;
+      @apply block;
+
+      & .gal-img {
+        @apply mt-4;
+      }
     }
 
     & .stores {
