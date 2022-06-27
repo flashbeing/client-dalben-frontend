@@ -5,7 +5,6 @@
         <div class="image"></div>
         <div class="center">
           <div class="text-col">
-            <div></div>
             <div>
               <h1 class="title">{{ $t('pg.home.title') }}</h1>
               <h2 class="subtitle">{{ $t('pg.home.titleDesc') }}</h2>
@@ -13,6 +12,7 @@
                 <Button :value="$t('pg.home.discoverMore')" class="button" />
               </a>
             </div>
+            <div></div>
           </div>
         </div>
       </div>
@@ -86,6 +86,23 @@
                 />
               </a>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="offers" class="image-head ceremony">
+      <div class="cover">
+        <div class="image"></div>
+        <div class="center">
+          <div class="text-col">
+            <div>
+              <h2 class="title">{{ $t('pg.home.ceremony') }}</h2>
+              <h3 class="subtitle">{{ $t('pg.home.ceremonyDesc') }}</h3>
+              <a href="/#stores">
+                <Button :value="$t('pg.home.visitStore')" class="feat-bt" />
+              </a>
+            </div>
+            <div></div>
           </div>
         </div>
       </div>
@@ -193,6 +210,14 @@ main {
       & .cover {
         & .image {
           background-image: url(/image/home/discount.jpeg);
+        }
+      }
+    }
+
+    &.ceremony {
+      & .cover {
+        & .image {
+          background-image: url(/image/home/ceremony.jpeg);
         }
       }
     }

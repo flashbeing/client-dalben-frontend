@@ -24,9 +24,12 @@
       "bookNow": "Prenota ora",
       "discount": "Scopri LA MAGIA DEL CASHBACK da Dal Ben Pordenone!",
       "discountDesc": "Corri in negozio e ricevi il rimborso del 10% sul tuo shopping. Valido su ogni acquisto e su qualsiasi importo speso!",
+      "ceremony": "Indossa l'abito perfetto ad ogni cerimonia.",
+      "ceremonyDesc": "Prima comunione? Matrimonio? Serata speciale? Ti aiutiamo ad indossare l'abito perfetto per ogni occasione.",
       "seePordenoneStore": "Visita negozio",
       "ourSalePoints": "I nostri punti vendita",
-      "startNavigationTo": "Visualizza sulle mappe"
+      "startNavigationTo": "Visualizza sulle mappe",
+      "visitStore": "Raggiungi un punto vendita"
     }
   },
 
