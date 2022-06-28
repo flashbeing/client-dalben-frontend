@@ -4,7 +4,7 @@
       <div class="cover">
         <div class="image"></div>
         <div class="center">
-          <div class="text-col">
+          <div class="text-col inverted">
             <div>
               <h1 class="title">{{ $t('pg.home.title') }}</h1>
               <h2 class="subtitle">{{ $t('pg.home.titleDesc') }}</h2>
@@ -94,7 +94,7 @@
       <div class="cover">
         <div class="image"></div>
         <div class="center">
-          <div class="text-col">
+          <div class="text-col inverted">
             <div>
               <h2 class="title">{{ $t('pg.home.ceremony') }}</h2>
               <h3 class="subtitle">{{ $t('pg.home.ceremonyDesc') }}</h3>
@@ -357,6 +357,10 @@ main {
       & .center {
         & .text-col {
           @apply flex-col pb-10 pr-0 !important;
+
+          &.inverted {
+            @apply flex-col-reverse !important;
+          }
         }
       }
 
