@@ -7,7 +7,7 @@
           <div class="logo">
             <Icon name="logo" />
           </div>
-          <p class="top-title">DAL BEN ABBIGLIAMENTO SRL</p>
+          <p class="top-title">DAL BEN ABBIGLIAMENTO SPA</p>
           <p>
             {{ $t('contacts.legalOffices') }}: Via serafini 5, 31050 Monastier
             di Treviso (TV)
@@ -17,6 +17,7 @@
             (VE)
           </p>
           <p>{{ $t('contacts.vat') }}: 02331560264</p>
+          <p>SDI: SUBM70N</p>
           <p>
             <a href="mailto:dalbensnc@legalmail.it" class="clickable"
               >dalbensnc@legalmail.it</a
