@@ -2,7 +2,7 @@
   <main>
     <section id="cover" class="image-head header">
       <div class="cover">
-        <div class="image"></div>
+        <div class="image left"></div>
         <div class="center">
           <div class="text-col">
             <div></div>
@@ -73,7 +73,7 @@
     </section>
     <section id="offers" class="image-head discount">
       <div class="cover">
-        <div class="image"></div>
+        <div class="image right"></div>
         <div class="center">
           <div class="text-col">
             <div></div>
@@ -353,6 +353,10 @@ main {
     & .image-head {
       & .cover {
         height: 70vh;
+
+        & .image.left {
+          background-position: left center;
+        }
       }
 
       & .center {
@@ -361,14 +365,6 @@ main {
 
           &.inverted {
             @apply flex-col-reverse !important;
-          }
-        }
-      }
-
-      &.discount {
-        & .cover {
-          & .image {
-            background-position: left center;
           }
         }
       }
