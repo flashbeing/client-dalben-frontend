@@ -38,11 +38,11 @@
             }}
 
             <span class="title sub">{{ $t('contacts.openingHours') }}</span>
-            {{ $t('contacts.monFri') }}:<br />- 9:00 - 12:30 | 14:30 - 19:45
+            {{ $t('contacts.monSat') }}:<br />- 9:00 - 19:30
+            <!--<span class="spacer"></span>
+            {{ $t('contacts.sat') }}:<br />- 9:00 - 19:45 -->
             <span class="spacer"></span>
-            {{ $t('contacts.sat') }}:<br />- 9:00 - 19:45
-            <span class="spacer"></span>
-            {{ $t('contacts.sun') }}:<br />- 9:30 - 13:00 | 14:30 - 19:45<br />
+            {{ $t('contacts.sun') }}:<br />- 9:30 - 19:30<br />
 
             <span class="title sub">{{
               $t('contacts.contactUs7of7', { from: '9:00-12:30 | 15:30-18:00' })

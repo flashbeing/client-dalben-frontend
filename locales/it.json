@@ -44,6 +44,7 @@
     "miranoLocation": "30030 Mirano (VE) Italia",
     "openingHours": "Orario di apertura",
     "monFri": "LUN-VEN",
+    "monSat": "LUN-SAB",
     "sat": "SAB",
     "sun": "DOM",
     "contactUs7of7": "Contattaci 7 su 7, dalle {from}",

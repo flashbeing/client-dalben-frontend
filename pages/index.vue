@@ -4,7 +4,8 @@
       <div class="cover">
         <div class="image"></div>
         <div class="center">
-          <div class="text-col inverted">
+          <div class="text-col">
+            <div></div>
             <div>
               <h1 class="title">{{ $t('pg.home.title') }}</h1>
               <h2 class="subtitle">{{ $t('pg.home.titleDesc') }}</h2>
@@ -12,7 +13,6 @@
                 <Button :value="$t('pg.home.discoverMore')" class="button" />
               </a>
             </div>
-            <div></div>
           </div>
         </div>
       </div>
@@ -63,7 +63,8 @@
             v-for="index in GALLERY_IMAGES_NUM"
             :key="index"
             :style="{
-              backgroundImage: 'url(/image/home/gallery/' + index + '.jpeg)',
+              backgroundImage:
+                'url(/image/home/v2/' + 'gallery/' + index + '.jpeg)',
             }"
             class="gal-img"
           ></div>
@@ -201,7 +202,7 @@ main {
     &.header {
       & .cover {
         & .image {
-          background-image: url(/image/home/cover.jpeg);
+          background-image: url(/image/home/v2/cover.jpeg);
         }
       }
     }
@@ -209,7 +210,7 @@ main {
     &.discount {
       & .cover {
         & .image {
-          background-image: url(/image/home/discount.jpeg);
+          background-image: url(/image/home/v2/discount.jpeg);
         }
       }
     }
@@ -217,7 +218,7 @@ main {
     &.ceremony {
       & .cover {
         & .image {
-          background-image: url(/image/home/ceremony.jpeg);
+          background-image: url(/image/home/v2/ceremony.jpeg);
         }
       }
     }
@@ -268,7 +269,7 @@ main {
     &.intro {
       & .img-ct {
         & .img {
-          background-image: url(/image/home/about.jpeg);
+          background-image: url(/image/home/v2/about.jpeg);
         }
       }
     }
@@ -276,7 +277,7 @@ main {
     &.personal-shopper {
       & .img-ct {
         & .img {
-          background-image: url(/image/home/personal-assistant.jpeg);
+          background-image: url(/image/home/v2/personal-assistant.jpeg);
         }
       }
     }
@@ -318,13 +319,13 @@ main {
 
       &.mirano {
         & .map {
-          background-image: url(/image/home/mirano-shop.jpeg);
+          background-image: url(/image/home/v2/mirano-shop.jpeg);
         }
       }
 
       &.pordenone {
         & .map {
-          background-image: url(/image/home/pordenone-shop.jpeg);
+          background-image: url(/image/home/v2/pordenone-shop.jpeg);
         }
       }
     }
